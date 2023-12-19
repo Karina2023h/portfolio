@@ -309,13 +309,27 @@ img {
 }
 
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
-  margin-right: 30px;
+
+@media screen and (min-width: 401px) and (max-width: 481px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: -5px;
+  }
 }
+
+@media screen and (max-width: 400px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: -5px;
+  }
+}
+
 
 @media screen and (min-width: 482px) {
   .cards {
@@ -330,8 +344,8 @@ img {
 
 .iconka {
   cursor: pointer;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   flex-shrink: 0;
   border-radius: 29px;
   background: #2A2A2A;
@@ -355,13 +369,13 @@ img {
 }
 
 .elips {
-  width: 350px;
-  height: 350px;
-  margin-left: 38px;
+  width: 320px;
+  height: 320px;
+  margin-left: 30px;
   margin-top: -650px;
   flex-shrink: 0;
   border-radius: 575px;
-  border: 45px solid var(--blu, #e509d6);
+  border: 43px solid var(--blu, #e509d6);
   box-shadow: 0px 0px 152px 0px rgba(79, 77, 77, 0.874);
 }
 
@@ -463,7 +477,7 @@ img {
 .infoaw {
   color: #f8f8f8;
   font-family: NEXT ART;
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -484,7 +498,7 @@ img {
   margin-top: 5px;
   color: #FFF;
   font-family: Arodora Pro;
-  font-size: 11.5px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -505,12 +519,12 @@ img {
 }
 
 .info-me-block {
-  width: 280px;
-  height: 350px;
+  width: 220px;
+  height: 330px;
   flex-shrink: 0;
   border-radius: 14px;
   background: #2C2C2C;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 @media screen and (min-width: 482px) {
@@ -525,10 +539,25 @@ img {
   }
 }
 
-.ingfd {
-  width: 165px;
-  height: 185px;
-  border-radius: 10px;
+
+
+@media screen and (min-width: 320px) {
+  .ingfd {
+    width: 135px;
+    height: 165px;
+    border-radius: 10px;
+    /* margin-left: 20px;
+    margin-top: 5px; */
+
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .ingfd {
+    width: 165px;
+    height: 185px;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -543,13 +572,13 @@ img {
 
 .elips2 {
   border-radius: 486px;
-  border: 40px solid rgb(253, 249, 55);
+  border: 35px solid rgb(253, 249, 55);
   box-shadow: 0px 4px 70px 0px rgba(198, 237, 20, 0.717);
-  width: 260px;
-  height: 260px;
+  width: 210px;
+  height: 210px;
   flex-shrink: 0;
-  margin-top: -650px;
-  margin-left: -85px;
+  margin-top: -600px;
+  margin-left: -60px;
   z-index: 1;
 }
 
@@ -567,8 +596,8 @@ img {
 }
 
 .info-me-block2 {
-  width: 165px;
-  height: 185px;
+  width: 135px;
+  height: 165px;
   flex-shrink: 0;
   border-radius: 14px;
   background: #2C2C2C;
@@ -589,12 +618,12 @@ img {
 
 .elips1 {
   border-radius: 792px;
-  border: 40px solid #E4E4E4;
+  border: 35px solid #E4E4E4;
   box-shadow: 0px 4px 70px 0px rgba(147, 143, 143, 0.904);
-  width: 260px;
-  height: 260px;
+  width: 210px;
+  height: 210px;
   flex-shrink: 0;
-  margin-top: 180px;
+  margin-top: 210px;
   margin-left: 1px;
 }
 
@@ -613,12 +642,12 @@ img {
 
 
 .info-me-block3 {
-  width: 170px;
-  height: 180px;
+  width: 135px;
+  height: 160px;
   flex-shrink: 0;
   border-radius: 14px;
   background: #2C2C2C;
-  margin-left: 230px;
+  margin-left: 200px;
 }
 
 @media screen and (min-width: 482px) {
@@ -633,8 +662,8 @@ img {
 }
 
 .asdfa {
-  width: 170px;
-  height: 180px;
+  width: 135px;
+  height: 160px;
   border-radius: 10px;
 
 }
@@ -675,6 +704,8 @@ img {
 
 .footer-info {
   display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -802,11 +833,25 @@ a {
   border-radius: 29px;
   background: var(--Gray2, linear-gradient(131deg, #0f0f0f 0%, #424242 100.52%));
   box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.795);
-  width: 370px;
+  width: 320px;
   height: 250px;
   margin-top: 60px;
-  margin-left: 25px;
+  margin-left: 19px;
 
+}
+
+@media screen and (min-width: 376px) {
+  .gallery-container {
+    position: relative;
+    border-radius: 29px;
+    background: var(--Gray2, linear-gradient(131deg, #0f0f0f 0%, #424242 100.52%));
+    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.795);
+    width: 320px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 45px;
+
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -831,12 +876,12 @@ a {
 }
 
 .sliade1 {
-  margin-top: 15px;
-  margin-right: -70px;
+  margin-top: 20px;
+  margin-right: -75px;
   object-fit: cover;
   border-radius: 8px;
   width: 110px;
-  height: 200px;
+  height: 210px;
 }
 
 @media screen and (min-width: 482px) {
@@ -872,7 +917,7 @@ a {
 .block-one {
   color: #E4E4E4;
   font-family: Arodora Pro;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -895,11 +940,11 @@ a {
   margin-top: 10px;
   color: #E4E4E4;
   font-family: Arodora Pro;
-  font-size: 10px;
+  font-size: 9px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  width: 220px;
+  width: 180px;
 }
 
 @media screen and (min-width: 482px) {
@@ -917,8 +962,8 @@ a {
 
 .asaf {
   color: #E4E4E4;
-  margin-top: 10px;
-  font-size: 10px;
+  margin-top: 6px;
+  font-size: 9px;
 
 }
 
@@ -1057,8 +1102,8 @@ a {
 
 .surrounding-circles2 {
   position: absolute;
-  margin-top: 270px;
-  margin-left: 35px;
+  margin-top: 260px;
+  margin-left: 45px;
   background-color: rgb(32, 17, 32);
   border-radius: 50%;
   width: 60px;
@@ -1081,7 +1126,7 @@ a {
 
 .surrounding-circles3 {
   position: absolute;
-  margin-top: 330px;
+  margin-top: 290px;
   margin-left: 200px;
   background-color: rgb(32, 17, 32);
   border-radius: 50%;
@@ -1173,7 +1218,7 @@ a {
 
 
 .prev-button {
-  left: -20px;
+  left: -15px;
 }
 
 @media screen and (min-width: 482px) {
@@ -1183,7 +1228,7 @@ a {
 }
 
 .next-button {
-  right: -20px;
+  right: -15px;
 }
 
 @media screen and (min-width: 482px) {
