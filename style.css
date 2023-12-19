@@ -1250,13 +1250,26 @@ a {
 
 .surrounding-circles1 {
   position: absolute;
-  margin-top: -40px;
+  margin-top: -30px;
   margin-left: 140px;
   background-color: rgb(32, 17, 32);
   border-radius: 50%;
   width: 60px;
   height: 60px;
 
+}
+
+@media screen and (min-width: 482px) {
+  .surrounding-circles1 {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(32, 17, 32);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -1298,13 +1311,27 @@ a {
 
 .surrounding-circles3 {
   position: absolute;
-  margin-top: 290px;
+  margin-top: 280px;
   margin-left: 200px;
   background-color: rgb(32, 17, 32);
   border-radius: 50%;
   width: 60px;
   height: 60px;
 
+}
+
+
+@media screen and (min-width: 376px) {
+  .surrounding-circles3 {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 200px;
+    background-color: rgb(32, 17, 32);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+  }
 }
 
 @media screen and (min-width: 482px) {
