@@ -372,7 +372,7 @@ img {
   .elips {
     width: 320px;
     height: 320px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: -650px;
     flex-shrink: 0;
     border-radius: 575px;
@@ -635,7 +635,7 @@ img {
     height: 210px;
     flex-shrink: 0;
     margin-top: -600px;
-    margin-left: -60px;
+    margin-left: -70px;
     z-index: 1;
   }
 }
@@ -891,10 +891,16 @@ a {
 }
 
 .logo-footer {
-  /* display: flex;
-    align-items: center; */
   margin-left: 5px;
   margin-top: 45px;
+  display: none;
+}
+
+@media screen and (min-width: 376px) {
+  .logo-footer {
+    margin-left: 5px;
+    margin-top: 45px;
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -944,7 +950,7 @@ a {
   border-radius: 29px;
   background: var(--Gray2, linear-gradient(131deg, #0f0f0f 0%, #424242 100.52%));
   box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.795);
-  width: 320px;
+  width: 310px;
   height: 250px;
   margin-top: 60px;
   margin-left: 19px;
@@ -986,13 +992,26 @@ a {
 
 }
 
+
+
 .sliade1 {
   margin-top: 20px;
-  margin-right: -75px;
+  margin-right: -90px;
   object-fit: cover;
   border-radius: 8px;
   width: 110px;
-  height: 210px;
+  height: 200px;
+}
+
+@media screen and (min-width: 376px) {
+  .sliade1 {
+    margin-top: 20px;
+    margin-right: -75px;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 110px;
+    height: 210px;
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -1025,14 +1044,28 @@ a {
   }
 }
 
+
 .block-one {
   color: #E4E4E4;
   font-family: Arodora Pro;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-left: 15px;
 
+}
+
+@media screen and (min-width: 376px) {
+  .block-one {
+    color: #E4E4E4;
+    font-family: Arodora Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -1051,11 +1084,25 @@ a {
   margin-top: 10px;
   color: #E4E4E4;
   font-family: Arodora Pro;
-  font-size: 9px;
+  font-size: 8px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  width: 180px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 376px) {
+  .block-one-parg {
+    margin-top: 10px;
+    color: #E4E4E4;
+    font-family: Arodora Pro;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 180px;
+  }
 }
 
 @media screen and (min-width: 482px) {
@@ -1071,11 +1118,25 @@ a {
   }
 }
 
+
+
+
 .asaf {
   color: #E4E4E4;
   margin-top: 6px;
   font-size: 9px;
+  margin-left: 20px;
 
+}
+
+
+@media screen and (min-width: 376px) {
+  .asaf {
+    color: #E4E4E4;
+    margin-top: 6px;
+    font-size: 9px;
+
+  }
 }
 
 @media screen and (min-width: 482px) {
