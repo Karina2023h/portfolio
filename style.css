@@ -1505,7 +1505,7 @@ a {
   .burger-menu {
     display: flex;
     align-items: center;
-    margin-left: 157px;
+    margin-left: 145px;
   }
 }
 
@@ -1543,7 +1543,7 @@ a {
 
 @media screen and (max-width: 481px) {
   .menu li {
-    margin-right: 15px;
+    margin-right: 13px;
   }
 }
 
@@ -1568,7 +1568,7 @@ a {
     flex-direction: column;
     position: absolute;
     top: 57px;
-    left: 17px;
+    left: 12px;
     background-color: #333;
     padding: 20px;
   }
