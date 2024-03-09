@@ -15,27 +15,41 @@
     <div class="container header-nav">
       <div class="header-logo">
         <a href="index.html">
-          <img class="logo" src="./img/logo/port.png" alt="Логотип" width="50" height="50">
+          <img class="logo" src="./img/logo/port.png" alt="Логотип" width="45" height="45">
         </a>
         <span class="spana">Web-developer</span>
+        <div class="burger-menu">
+          <div class="burger-icon" id="burgerIcon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <div class="menu" id="menu">
+            <ul>
+              <li><a href="#">Головна</a></li>
+              <li><a href="#me">Про мене</a></li>
+              <li><a href="#g3">Мої роботи</a></li>
+              <li><a href="#g4">Контакти</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navig">
+          <ul class="navig-one list">
+            <li class="item">
+              <a class="navig-link link" href="">Головна</a>
+            </li>
+            <li class="item">
+              <a class="navig-link link" href="#me">Про мене</a>
+            </li>
+            <li class="item">
+              <a class="navig-link link" href="#g3">Мої роботи</a>
+            </li>
+            <li class="item">
+              <a class="navig-link link" href="#g4">Контакти</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="navig">
-        <ul class="navig-one list">
-          <li class="item">
-            <a class="navig-link link" href="">Головна</a>
-          </li>
-          <li class="item">
-            <a class="navig-link link" href="">Про мене</a>
-          </li>
-          <li class="item">
-            <a class="navig-link link" href="#g3">Мої роботи</a>
-          </li>
-          <li class="item">
-            <a class="navig-link link" href="#g4">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
   </header>
   <main>
     <section class="hero">
@@ -126,7 +140,7 @@
           </div>
         </div>
 
-        <div class="info-me-block">
+        <div id="me" class="info-me-block">
           <h2 class="infoaw">Про мене</h2>
           <p class="info-paragraf"> Отже, ви вже знаєте, що мене звати Каріна. Трохи про себе:
             з дитинства люблю творчість, живу в м.Полтава, Україна. Чому саме програмування? Все
@@ -153,7 +167,7 @@
 
       </div>
     </section>
-    <section class="gallery container">
+    <section id="g3" class="gallery container">
       <h2 class="work-me">Мої роботи</h2>
       <div class="gallery-container">
         <button class="prev-button" onclick="prevSlide()">❮</button>
@@ -191,7 +205,7 @@
     </section>
     <footer class="footer">
       <div class="footer-info container">
-        <div class="info-footerst">
+        <div id="g4" class="info-footerst">
           <h3 class="text-fa"><a style=" color: #fbfafa;" href="">Головна</a></h3>
           <h3 class=" text-fa"><a style=" color: #fbfafa;" href="">Про мене</a></h3>
           <h3 class=" text-fa"><a style=" color: #fbfafa;" href="">Мої роботи</a>
@@ -218,6 +232,8 @@
     </footer>
   </main>
   <script src="./js/galerry.js"></script>
+  <script src="./js/spysk.js"></script>
+  <script src="./js/burger.js"></script>
 </body>
 
 </html>
